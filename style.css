@@ -1,0 +1,147 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #fffdf9;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #f8f9fa;
+  border-bottom: 2px solid #e0e0e0;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #c2185b;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #444;
+}
+nav a:hover {
+  color: #c2185b;
+}
+.search input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* HERO */
+.hero {
+  background: url("https://images.unsplash.com/photo-1617201770494-09e9e4fbb2ec?auto=format&fit=crop&w=1400&q=80") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+.hero-text {
+  background: rgba(131, 48, 48, 0.4);
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #c2185b;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.hero .btn:hover {
+  background: #9c1348;
+}
+
+/* SECTIONS */
+section {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #c2185b;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* CATEGORIES */
+.cat-card {
+  text-align: center;
+}
+.cat-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.cat-card h3 {
+  margin-top: 0.5rem;
+  color: #6a1b9a;
+}
+
+/* PRODUCTS */
+.product-card {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.product-card h3 {
+  margin: 0.5rem 0;
+}
+.price {
+  color: #c2185b;
+  font-weight: bold;
+}
+.product-card .btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  background: #6a1b9a;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.product-card .btn:hover {
+  background: #4a0d6e;
+}
+
+/* FOOTER */
+footer {
+  background: #f8f9fa;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  border-top: 2px solid #e0e0e0;
+}
